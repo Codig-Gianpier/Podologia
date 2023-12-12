@@ -228,8 +228,7 @@ export default {
         timer: 1500,
       });
       const doc = new jsPDF();
-      const logoImage = 'https://gianpierproyectos.000webhostapp.com/imagenes/1.jpeg'; // Reemplaza con la ruta de tu imagen
-  doc.addImage(logoImage, 'PNG', doc.internal.pageSize.width - 40, 10, 30, 30);
+      
       // Encabezado
       doc.text("Boleta de Compra", 20, 10);
 
