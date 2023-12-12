@@ -4,6 +4,7 @@ import Principal from '../views/Principal.vue'
 import CatalogoPodologia from '../views/Catalogo.vue'
 import Especialistas from '../views/Especialistas.vue'
 import CarritoCompra from '../views/Carrito.vue'
+import Servicio from '../views/Servicios.vue'
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,15 @@ const routes = [
     path: '/carrito',
     name: 'Carrito',
     component: CarritoCompra,
+    meta: {
+      autenticado: true,
+    },
+  },
+
+  {
+    path: '/servicios',
+    name: 'servicios',
+    component: Servicio,
     meta: {
       autenticado: true,
     },

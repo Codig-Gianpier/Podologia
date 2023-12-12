@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link text-white">Servicios</router-link>
+            <router-link to="/servicios" class="nav-link text-white">Servicios</router-link>
           </li>
           <li class="nav-item active">
             <router-link to="/especialistas" class="nav-link text-white"

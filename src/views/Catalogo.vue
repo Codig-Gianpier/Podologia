@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link text-white"
+            <router-link to="/servicios" class="nav-link text-white"
               >Servicios</router-link
             >
           </li>
